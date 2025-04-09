@@ -1,0 +1,347 @@
+OFFLINE_WM3C68_DCG_K> hgetc enodebfunction=1 enodebfunctionid$|^userlabel$
+
+250409-21:03:05+0700 OFFLINE_WM3C68_dcg_k 25.0b MSRBS_NODE_MODEL_24.Q2_661.28291.124_md5_ stopfile=/tmp/52056
+.
+MO              ;eNodeBFunctionId;userLabel
+ENodeBFunction=1;1               ;WXLC68   
+
+OFFLINE_WM3C68_DCG_K> hgetc EUtranCellFDD ^eUtranCellFDDId$|^tac$|^cellId$|^physicalLayerCellIdGroup$|^physicalLayerSubCellId$|^earfcnul$|^earfcndl$|^ulChannelBandwidth$|^dlChannelBandwidth$|^rachRootSequence$
+
+250409-21:03:05+0700 OFFLINE_WM3C68_dcg_k 25.0b MSRBS_NODE_MODEL_24.Q2_661.28291.124_md5_ stopfile=/tmp/52056
+............			1		2					3				4		5		6					7							8					9				10		11	
+MO                   ;cellId;dlChannelBandwidth;eUtranCellFDDId;earfcndl;earfcnul;physicalLayerCellId;physicalLayerCellIdGroup;physicalLayerSubCellId;rachRootSequence;tac  ;ulChannelBandwidth
+EUtranCellFDD=WPLC68A;31    ;10000             ;WPLC68A        ;9460    ;27460   ;237                ;79                      ;0                     ;150             ;45304;10000             
+EUtranCellFDD=WPLC68B;32    ;10000             ;WPLC68B        ;9460    ;27460   ;144                ;48                      ;0                     ;780             ;45304;10000             
+EUtranCellFDD=WPLC68C;33    ;10000             ;WPLC68C        ;9460    ;27460   ;369                ;123                     ;0                     ;670             ;45304;10000             
+EUtranCellFDD=WXLC68A;1     ;10000             ;WXLC68A        ;6300    ;24300   ;337                ;112                     ;1                     ;790             ;45304;10000             
+EUtranCellFDD=WXLC68B;2     ;10000             ;WXLC68B        ;6300    ;24300   ;338                ;112                     ;2                     ;800             ;45304;10000             
+EUtranCellFDD=WXLC68C;3     ;10000             ;WXLC68C        ;6300    ;24300   ;336                ;112                     ;0                     ;780             ;45304;10000             
+EUtranCellFDD=WXLC68T;19    ;20000             ;WXLC68T        ;100     ;18100   ;263                ;87                      ;2                     ;370             ;45304;20000             
+EUtranCellFDD=WXLC68U;20    ;20000             ;WXLC68U        ;100     ;18100   ;261                ;87                      ;0                     ;200             ;45304;20000             
+EUtranCellFDD=WXLC68V;21    ;20000             ;WXLC68V        ;100     ;18100   ;262                ;87                      ;1                     ;50              ;45304;20000         
+.....
+MO                                                                                                     ;dlChannelBandwidth;physicalLayerCellIdGroup;physicalLayerSubCellId;tac  ;ulChannelBandwidth
+ENodeBFunction=1,EUtraNetwork=1,ExternalENodeBFunction=2622-204707,ExternalEUtranCellFDD=2622-204707-2 ;10000             ;167                     ;0                     ;45304;10000             
+ENodeBFunction=1,EUtraNetwork=1,ExternalENodeBFunction=2622-400062,ExternalEUtranCellFDD=2622-400062-10;20000             ;84                      ;0                     ;45304;20000             
+ENodeBFunction=1,EUtraNetwork=1,ExternalENodeBFunction=2622-400062,ExternalEUtranCellFDD=2622-400062-19;20000             ;43                      ;2                     ;45304;20000             
+ENodeBFunction=1,EUtraNetwork=1,ExternalENodeBFunction=2622-400062,ExternalEUtranCellFDD=2622-400062-21;20000             ;110                     ;1                     ;45304;20000             
+ENodeBFunction=1,EUtraNetwork=1,ExternalENodeBFunction=2622-400062,ExternalEUtranCellFDD=2622-400062-3 ;10000             ;4                       ;2                     ;45304;10000             
+ENodeBFunction=1,EUtraNetwork=1,ExternalENodeBFunction=2622-400062,ExternalEUtranCellFDD=2622-400062-8 ;20000             ;7                       ;0                     ;45304;20000             
+ENodeBFunction=1,EUtraNetwork=1,ExternalENodeBFunction=2622-54125,ExternalEUtranCellFDD=2622-54125-2   ;10000             ;52                      ;1                     ;45304;10000             
+
+OFFLINE_WM3C68_DCG_K> hgetc sectorcarrier ^sectorcarrierid$|^configuredMaxTxPower$|^noOfTxAntennas$|^noOfRxAntennas$
+
+250409-21:03:05+0700 OFFLINE_WM3C68_dcg_k 25.0b MSRBS_NODE_MODEL_24.Q2_661.28291.124_md5_ stopfile=/tmp/52056
+.
+MO                     ;configuredMaxTxPower;noOfRxAntennas;noOfTxAntennas
+NRSectorCarrier=WPVC68A;40000               ;2             ;2             
+NRSectorCarrier=WPVC68B;40000               ;2             ;2             
+NRSectorCarrier=WPVC68C;40000               ;2             ;2             
+.....
+MO                   ;configuredMaxTxPower;noOfRxAntennas;noOfTxAntennas;sectorCarrierId
+SectorCarrier=WPLC68A;40000               ;2             ;2             ;WPLC68A        
+SectorCarrier=WPLC68B;40000               ;2             ;2             ;WPLC68B        
+SectorCarrier=WPLC68C;40000               ;2             ;2             ;WPLC68C        
+SectorCarrier=WXLC68A;40000               ;2             ;2             ;WXLC68A        
+SectorCarrier=WXLC68B;40000               ;2             ;2             ;WXLC68B        
+SectorCarrier=WXLC68C;40000               ;2             ;2             ;WXLC68C        
+SectorCarrier=WXLC68T;60000               ;2             ;2             ;WXLC68T        
+SectorCarrier=WXLC68U;60000               ;2             ;2             ;WXLC68U        
+SectorCarrier=WXLC68V;60000               ;2             ;2             ;WXLC68V        
+
+OFFLINE_WM3C68_DCG_K> hgetc nbiot ^cellid$|^arfcn$|^bandw$|^tac$
+
+250409-21:03:05+0700 OFFLINE_WM3C68_dcg_k 25.0b MSRBS_NODE_MODEL_24.Q2_661.28291.124_md5_ stopfile=/tmp/52056
+.
+MO               ;availabilityStatus;cellId;nbIotCellId;physicalLayerCellId;tac  
+NbIotCell=WNLC68A;i[0] =            ;101   ;WNLC68A    ;337                ;45934
+NbIotCell=WNLC68B;i[0] =            ;102   ;WNLC68B    ;338                ;45934
+NbIotCell=WNLC68C;i[0] =            ;103   ;WNLC68C    ;336                ;45934
+
+OFFLINE_WM3C68_DCG_K> hgetc gnbdufunction=1 ^gnbdufunctionid$|^userlabel$
+
+250409-21:03:05+0700 OFFLINE_WM3C68_dcg_k 25.0b MSRBS_NODE_MODEL_24.Q2_661.28291.124_md5_ stopfile=/tmp/52056
+.
+MO             ;gNBDUFunctionId;userLabel
+GNBDUFunction=1;1              ;WXVC68   
+
+OFFLINE_WM3C68_DCG_K> hgetc nrcelldu ^nrcellduid$|^cellLocalId$|^nRTAC$|^nRPCI$|^rachRootSequence$
+
+250409-21:03:06+0700 OFFLINE_WM3C68_dcg_k 25.0b MSRBS_NODE_MODEL_24.Q2_661.28291.124_md5_ stopfile=/tmp/52056
+..
+MO              ;cellLocalId;nRCellDUId;nRPCI;nRTAC;rachRootSequence
+NRCellDU=WPVC68A;211        ;WPVC68A   ;483  ;45304;80              
+NRCellDU=WPVC68B;212        ;WPVC68B   ;485  ;45304;96              
+NRCellDU=WPVC68C;213        ;WPVC68C   ;484  ;45304;48              
+
+OFFLINE_WM3C68_DCG_K> hgetc nrsectorcarrier ^arfcn$|^rachRootSequence$|^bSChannelBw$|^noOfTxAntennas$|^noOfRxAntennas$|^configuredmaxtxpower$
+
+250409-21:03:06+0700 OFFLINE_WM3C68_dcg_k 25.0b MSRBS_NODE_MODEL_24.Q2_661.28291.124_md5_ stopfile=/tmp/52056
+.
+MO                     ;configuredMaxTxPower;noOfRxAntennas;noOfTxAntennas
+NRSectorCarrier=WPVC68A;40000               ;2             ;2             
+NRSectorCarrier=WPVC68B;40000               ;2             ;2             
+NRSectorCarrier=WPVC68C;40000               ;2             ;2             
+
+OFFLINE_WM3C68_DCG_K> sdir
+
+250409-21:03:07+0700 OFFLINE_WM3C68_dcg_k 25.0b MSRBS_NODE_MODEL_24.Q2_661.28291.124_md5_ stopfile=/tmp/52056
+......Checking available boards on node...
+..............................
+.............................................................................................................................................................................................................................................................................................................
+Getting MO data from node (95 MOs). Please wait...
+0%                                             ~50%                                           ~100%
+.........................................................................................................................................................
+
+Total: 10 CPRI links (10 OK, 0 OKW, 0 NOK, 0 NT)
+................
++--------+                      +--------------+
+|        | A        O98      D1 | RRU-B28_S1-1 |
+|        |-----------1----------| RRU2217B28B  |
+|        |         OK-28m       |    BXP_11    |
+|        |                      +--------------+
+|        |                               |A  |B
+|        |                  SE=B28_S1 AG=B28_S1
+|        |              FDD=WPLC68A NRC=WPVC68A
+|        |
+|        |                      +--------------+
+|        | B        O98      D1 | RRU-B28_S2-1 |
+|        |-----------2----------| RRU2217B28B  |
+|        |         OK-28m       |    BXP_9     |
+|        |                      +--------------+
+|        |                               |A  |B
+|        |                  SE=B28_S2 AG=B28_S2
+|        |              FDD=WPLC68B NRC=WPVC68B
+|        |
+|        |                      +--------------+
+|        | C        O98      D1 | RRU-B28_S3-1 |
+|        |-----------3----------| RRU2217B28B  |
+|        |         OK-27m       |    BXP_7     |
+|        |                      +--------------+
+|        |                               |A  |B
+|        |                  SE=B28_S3 AG=B28_S3
+|        |              FDD=WPLC68C NRC=WPVC68C
+|        |
+|        |                      +--------------+
+|        | D        O98      D1 | RRU-B20_S1-1 |
+|        |-----------4----------|  RRU2217B20  |
+|        |         OK-38m       |    BXP_8     |
+|        |                      +--------------+
+|        |                               |A  |B
+|        |                  SE=B20_S1 AG=B20_S1
+|        |             FDD=WXLC68A NIOT=WNLC68A
+|        |
+|        |                      +--------------+
+|        | E        O98      D1 | RRU-B20_S2-1 |
+|        |-----------5----------|  RRU2217B20  |
+|        |         OK-39m       |    BXP_6     |
+|        |                      +--------------+
+|        |                               |A  |B
+|        |                  SE=B20_S2 AG=B20_S2
+|  DU-1  |             FDD=WXLC68B NIOT=WNLC68B
+| BB6631 |
+| 000100 |                      +--------------+
+|        | F        O98      D1 | RRU-B20_S3-1 |
+|        |-----------6----------|  RRU2217B20  |
+|        |         OK-36m       |    BXP_5     |
+|        |                      +--------------+
+|        |                               |A  |B
+|        |                  SE=B20_S3 AG=B20_S3
+|        |             FDD=WXLC68C NIOT=WNLC68C
+|        |
+|        |                      +-------------+
+|        | G        O25      D2 | RRU-B1_S1-1 |
+|        |-----------7----------|  RRUS11B1   |
+|        |         OK-33m       |    BXP_4    |
+|        |                      +-------------+
+|        |                              |A  |B
+|        |                   SE=B1_S1 AG=B1_S1
+|        |                         FDD=WXLC68T
+|        |
+|        |                      +-------------+
+|        | H        O25      D2 | RRU-B1_S2-1 |
+|        |-----------8----------|  RRUS11B1   |
+|        |         OK-33m       |    BXP_2    |
+|        |                      +-------------+
+|        |                              |A  |B
+|        |                   SE=B1_S2 AG=B1_S2
+|        |                         FDD=WXLC68U
+|        |
+|        |                      +-------------+
+|        | J        O25      D2 | RRU-B1_S3-1 |
+|        |-----------9----------|  RRUS11B1   |
+|        |         OK-33m       |    BXP_3    |
+|        |                      +-------------+
+|        |                              |A  |B
+|        |                   SE=B1_S3 AG=B1_S3
+|        |                         FDD=WXLC68V
+|        |
+|        |               +-------------+
+|        | K    O25   D1 | RRU-B8_S1-1 |
+|        |-------10------|  RRUS12B8   |
+|        |     OK-51m    |   BXP_10    |
+|        |               +-------------+
+|        |                       |A  |B
+|        |            SE=B8_S1 AG=B8_S1
++--------+    GT=WXBC68A/0 GT=WXBC68A/1
+
+=====================================================================================================================================
+ID RiL                          Type Res MO1-MO2                  BOARD1-BOARD2      AlmIDs Cells (States)                  Issue (Failed checks)
+=====================================================================================================================================
+ 1 DU-1-A___RRU-B28_S1-1-DATA_1 O98  OK  DU-1(A) RRU-B28_S1-1(D1) BB6631 RRU2217B28B        FDD=WPLC68A NRC=WPVC68A (1,1)   Passed
+ 2 DU-1-B___RRU-B28_S2-1-DATA_1 O98  OK  DU-1(B) RRU-B28_S2-1(D1) BB6631 RRU2217B28B        FDD=WPLC68B NRC=WPVC68B (1,1)   Passed
+ 3 DU-1-C___RRU-B28_S3-1-DATA_1 O98  OK  DU-1(C) RRU-B28_S3-1(D1) BB6631 RRU2217B28B        FDD=WPLC68C NRC=WPVC68C (1,1)   Passed
+ 4 DU-1-D___RRU-B20_S1-1-DATA_1 O98  OK  DU-1(D) RRU-B20_S1-1(D1) BB6631 RRU2217B20         FDD=WXLC68A NIOT=WNLC68A (1,1)  Passed
+ 5 DU-1-E___RRU-B20_S2-1-DATA_1 O98  OK  DU-1(E) RRU-B20_S2-1(D1) BB6631 RRU2217B20         FDD=WXLC68B NIOT=WNLC68B (1,1)  Passed
+ 6 DU-1-F___RRU-B20_S3-1-DATA_1 O98  OK  DU-1(F) RRU-B20_S3-1(D1) BB6631 RRU2217B20         FDD=WXLC68C NIOT=WNLC68C (1,1)  Passed
+ 7 DU-1-G___RRU-B1_S1-1-DATA_2  O25  OK  DU-1(G) RRU-B1_S1-1(D2)  BB6631 RRUS11B1           FDD=WXLC68T (1)                 Passed
+ 8 DU-1-H___RRU-B1_S2-1-DATA_2  O25  OK  DU-1(H) RRU-B1_S2-1(D2)  BB6631 RRUS11B1           FDD=WXLC68U (1)                 Passed
+ 9 DU-1-J___RRU-B1_S3-1-DATA_2  O25  OK  DU-1(J) RRU-B1_S3-1(D2)  BB6631 RRUS11B1           FDD=WXLC68V (1)                 Passed
+10 DU-1-K___RRU-B8_S1-1-DATA_1  O25  OK  DU-1(K) RRU-B8_S1-1(D1)  BB6631 RRUS12B8           GT=WXBC68A/0 GT=WXBC68A/1 (1,1) Passed
+-------------------------------------------------------------------------------------------------------------------------------------
+
+Node: RadioNode GLN   CXP2010174/2_R9M28 (24.Q2)   G3.1   GSM LTE-FDD,LTE-IoT NR-LB-FDD-ESS-SA-NSA
+
+=====================================================================================================================================
+FRU          ;LNH    ;BOARD       ;ST ;FAULT ;OPER ;MAINT ;STAT ;PRODUCTNUMBER   ;REV     ;SERIAL        ;DATE     ; TEMP ; UPT ;VOLT ;SW                 ;
+=====================================================================================================================================
+DU-1         ;000100 ;BB6631      ; 1 ;  OFF ;  ON ;  OFF ; OFF ;KDU1370071/11   ;R3H     ;E96A019M4F    ;20241010 ;      ;0.01 ;     ;                   ;
+RRU-B1_S1-1  ;BXP_4  ;RRUS11B1    ; 1 ;  OFF ;  ON ;  OFF ; N/A ;KRC161255/2     ;R2B     ;D16K345899    ;20141111 ; 27.0 ;0.05 ;     ;CXP9013268%6_R72DD ;
+RRU-B1_S2-1  ;BXP_2  ;RRUS11B1    ; 1 ;  OFF ;  ON ;  OFF ; N/A ;KRC161255/2     ;R2B     ;D16K551281    ;20141119 ; 27.5 ;0.05 ;     ;CXP9013268%6_R72DD ;
+RRU-B1_S3-1  ;BXP_3  ;RRUS11B1    ; 1 ;  OFF ;  ON ;  OFF ; N/A ;KRC161255/2     ;R2B     ;D16K551279    ;20141119 ; 26.3 ;0.05 ;     ;CXP9013268%6_R72DD ;
+RRU-B20_S1-1 ;BXP_8  ;RRU2217B20  ; 1 ;  OFF ;  ON ;  OFF ; N/A ;KRC161549/1     ;R1L     ;TU8U000G56    ;20190621 ; 24.1 ;0.05 ;     ;CXP9013268%9_R93KD ; (Radio2217B20)
+RRU-B20_S2-1 ;BXP_6  ;RRU2217B20  ; 1 ;  OFF ;  ON ;  OFF ; N/A ;KRC161549/1     ;R1L     ;TU8U005GXV    ;20200126 ; 23.3 ;0.05 ;     ;CXP9013268%9_R93KD ; (Radio2217B20)
+RRU-B20_S3-1 ;BXP_5  ;RRU2217B20  ; 1 ;  OFF ;  ON ;  OFF ; N/A ;KRC161549/1     ;R1L     ;TU8U006964    ;20200209 ; 25.1 ;0.05 ;     ;CXP9013268%9_R93KD ; (Radio2217B20)
+RRU-B28_S1-1 ;BXP_11 ;RRU2217B28B ; 1 ;  OFF ;  ON ;  OFF ; N/A ;KRC161499/1     ;R1F     ;TU8U0055EV    ;20200118 ; 25.1 ;0.05 ;     ;CXP9013268%9_R93KD ; (Radio2217B28B)
+RRU-B28_S2-1 ;BXP_9  ;RRU2217B28B ; 1 ;  OFF ;  ON ;  OFF ; N/A ;KRC161499/1     ;R1F     ;TU8U003PFK    ;20191210 ; 23.5 ;0.05 ;     ;CXP9013268%9_R93KD ; (Radio2217B28B)
+RRU-B28_S3-1 ;BXP_7  ;RRU2217B28B ; 1 ;  OFF ;  ON ;  OFF ; N/A ;KRC161499/1     ;R1F     ;TU8U0055J8    ;20200118 ; 27.1 ;0.05 ;     ;CXP9013268%9_R93KD ; (Radio2217B28B)
+RRU-B8_S1-1  ;BXP_10 ;RRUS12B8    ; 1 ;  OFF ;  ON ;  OFF ; N/A ;KRC161262/2     ;R1H     ;D16M017932    ;20150111 ; 20.8 ;0.05 ;     ;CXP9013268%9_R93KD ;
+-------------------------------------------------------------------------------------------------------------------------------------
+
+=====================================================================================================================================
+AntennaNearUnit                                ;ST  ;TYPE   ;PRODUCTNR  ;REV  ;UNIQUEID             ;RfPort
+=====================================================================================================================================
+AntennaUnitGroup=B1_S1,AntennaNearUnit=RET-1   ; 1  ;S-RET  ;COMMRET2   ;6    ;CP019CN103540576EY2  ;FieldReplaceableUnit=RRU-B1_S1-1,RfPort=R
+AntennaUnitGroup=B1_S2,AntennaNearUnit=RET-1   ; 1  ;S-RET  ;COMMRET2   ;6    ;CP019CN103540568EY2  ;FieldReplaceableUnit=RRU-B1_S2-1,RfPort=R
+AntennaUnitGroup=B1_S3,AntennaNearUnit=RET-1   ; 1  ;S-RET  ;COMMRET2   ;6    ;CP019CN103540589EY2  ;FieldReplaceableUnit=RRU-B1_S3-1,RfPort=R
+AntennaUnitGroup=B20_S1,AntennaNearUnit=RET-1  ; 1  ;S-RET  ;COMMRET2   ;6    ;CP019CN103540576BR2  ;FieldReplaceableUnit=RRU-B20_S1-1,RfPort=R
+AntennaUnitGroup=B20_S2,AntennaNearUnit=RET-1  ; 1  ;S-RET  ;COMMRET2   ;6    ;CP019CN103540568BR2  ;FieldReplaceableUnit=RRU-B20_S2-1,RfPort=R
+AntennaUnitGroup=B20_S3,AntennaNearUnit=RET-1  ; 1  ;S-RET  ;COMMRET2   ;6    ;CP019CN103540589BR2  ;FieldReplaceableUnit=RRU-B20_S3-1,RfPort=R
+-------------------------------------------------------------------------------------------------------------------------------------
+
+=====================================================================================================================================
+XPBOARD  ;ST ;FAULT ;OPER ;PRODUCTNUMBER ;REV ;SERIAL/NAME ;DATE     ; TEMP ;MO
+=====================================================================================================================================
+FAN08    ; 1 ;N/A   ;N/A  ;BKV106236/1   ;R2F ;DD139G6289  ;20240807 ;      ;SupportUnit=1 (FAN  DU-1)
+GPS0301  ; 1 ;      ;     ;NCD90156/1    ;R1C ;TU8KFJ3098.1544 ;         ;      ;Synchronization=1,TimeSyncIO=GPS (7:OperationalWithValidTime)
+-------------------------------------------------------------------------------------------------------------------------------------
+
+=====================================================================================================================================
+ID ;T ;RiL                          ;BPBP ;BOARD1      ;LNH1 ;PORT ;R ;LINK ;RATE  ; BER ;BOARD2      ;LNH2 ;PORT ;R ;LINK ;RATE  ; BER ;LENGTH ;MO1 - MO2
+=====================================================================================================================================
+ 1 ;O ;DU-1-A___RRU-B28_S1-1-DATA_1 ;1111 ;BB6631      ;000100 ; 1 ;M ;Up   ;9.8G  ;     ;RRU2217B28B ;BXP_11 ; 0 ;S ;Up   ;9.8G  ;     ;   28m ;Fru=DU-1(A) Fru=RRU-B28_S1-1(D1)
+ 2 ;O ;DU-1-B___RRU-B28_S2-1-DATA_1 ;1111 ;BB6631      ;000100 ; 2 ;M ;Up   ;9.8G  ;     ;RRU2217B28B ;BXP_9  ; 0 ;S ;Up   ;9.8G  ;     ;   28m ;Fru=DU-1(B) Fru=RRU-B28_S2-1(D1)
+ 3 ;O ;DU-1-C___RRU-B28_S3-1-DATA_1 ;1111 ;BB6631      ;000100 ; 3 ;M ;Up   ;9.8G  ;     ;RRU2217B28B ;BXP_7  ; 0 ;S ;Up   ;9.8G  ;     ;   27m ;Fru=DU-1(C) Fru=RRU-B28_S3-1(D1)
+ 4 ;O ;DU-1-D___RRU-B20_S1-1-DATA_1 ;1111 ;BB6631      ;000100 ; 4 ;M ;Up   ;9.8G  ;     ;RRU2217B20  ;BXP_8  ; 0 ;S ;Up   ;9.8G  ;     ;   38m ;Fru=DU-1(D) Fru=RRU-B20_S1-1(D1)
+ 5 ;O ;DU-1-E___RRU-B20_S2-1-DATA_1 ;1111 ;BB6631      ;000100 ; 5 ;M ;Up   ;9.8G  ;     ;RRU2217B20  ;BXP_6  ; 0 ;S ;Up   ;9.8G  ;     ;   39m ;Fru=DU-1(E) Fru=RRU-B20_S2-1(D1)
+ 6 ;O ;DU-1-F___RRU-B20_S3-1-DATA_1 ;1111 ;BB6631      ;000100 ; 6 ;M ;Up   ;9.8G  ;     ;RRU2217B20  ;BXP_5  ; 0 ;S ;Up   ;9.8G  ;     ;   36m ;Fru=DU-1(F) Fru=RRU-B20_S3-1(D1)
+ 7 ;O ; DU-1-G___RRU-B1_S1-1-DATA_2 ;1111 ;BB6631      ;000100 ; 7 ;M ;Up   ;2.5G  ;     ;RRUS11B1    ;BXP_4  ; 1 ;S ;Up   ;2.5G  ;   0 ;   33m ;Fru=DU-1(G) Fru=RRU-B1_S1-1(D2)
+ 8 ;O ; DU-1-H___RRU-B1_S2-1-DATA_2 ;1111 ;BB6631      ;000100 ; 8 ;M ;Up   ;2.5G  ;     ;RRUS11B1    ;BXP_2  ; 1 ;S ;Up   ;2.5G  ;   0 ;   33m ;Fru=DU-1(H) Fru=RRU-B1_S2-1(D2)
+ 9 ;O ; DU-1-J___RRU-B1_S3-1-DATA_2 ;1111 ;BB6631      ;000100 ; 9 ;M ;Up   ;2.5G  ;     ;RRUS11B1    ;BXP_3  ; 1 ;S ;Up   ;2.5G  ;   0 ;   33m ;Fru=DU-1(J) Fru=RRU-B1_S3-1(D2)
+10 ;O ; DU-1-K___RRU-B8_S1-1-DATA_1 ;1111 ;BB6631      ;000100 ;10 ;M ;Up   ;2.5G  ;     ;RRUS12B8    ;BXP_10 ; 0 ;S ;Up   ;2.5G  ;   0 ;   51m ;Fru=DU-1(K) Fru=RRU-B8_S1-1(D1)
+-------------------------------------------------------------------------------------------------------------------------------------
+
+=====================================================================================================================================
+ID ;LINK ;RiL                          ;VENDOR1      ;VENDORPROD1      ;REV1 ;SERIAL1         ;DATE1    ;ERICSSONPROD1  ;VENDOR2      ;VENDORPROD2      ;REV2 ;SERIAL2         ;DATE2    ;ERICSSONPROD2  ;TT ;WL1     ;WL2    
+=====================================================================================================================================
+ 1 ;Up   ;DU-1-A___RRU-B28_S1-1-DATA_1 ;WTD          ;RTXM228-402-C27  ;1.0  ;EM194300040491  ;20191030 ;RDH10265/3 R1A ;WTD          ;RTXM228-402-C27  ;1.0  ;EM194300040127  ;20191028 ;RDH10265/3 R1A ;0  ;1310.00 ;1310.00
+ 2 ;Up   ;DU-1-B___RRU-B28_S2-1-DATA_1 ;WTD          ;RTXM228-402-C27  ;1.0  ;EM194300040202  ;20191028 ;RDH10265/3 R1A ;WTD          ;RTXM228-402-C27  ;1.0  ;EM194300040142  ;20191028 ;RDH10265/3 R1A ;0  ;1310.00 ;1310.00
+ 3 ;Up   ;DU-1-C___RRU-B28_S3-1-DATA_1 ;WTD          ;RTXM228-402-C27  ;1.0  ;EM194300040496  ;20191028 ;RDH10265/3 R1A ;WTD          ;RTXM228-402-C27  ;1.0  ;EM194300040148  ;20191028 ;RDH10265/3 R1A ;0  ;1310.00 ;1310.00
+ 4 ;Up   ;DU-1-D___RRU-B20_S1-1-DATA_1 ;WTD          ;RTXM228-402-C27  ;1.0  ;EM194300040495  ;20191028 ;RDH10265/3 R1A ;WTD          ;RTXM228-402-C27  ;1.0  ;EM194300040141  ;20191028 ;RDH10265/3 R1A ;0  ;1310.00 ;1310.00
+ 5 ;Up   ;DU-1-E___RRU-B20_S2-1-DATA_1 ;WTD          ;RTXM228-402-C27  ;1.0  ;EC194300281016  ;20191025 ;RDH10265/3 R1A ;WTD          ;RTXM228-402-C27  ;1.0  ;EM194300040124  ;20191028 ;RDH10265/3 R1A ;0  ;1310.00 ;1310.00
+ 6 ;Up   ;DU-1-F___RRU-B20_S3-1-DATA_1 ;WTD          ;RTXM228-402-C27  ;1.0  ;EC194300281012  ;20191025 ;RDH10265/3 R1A ;WTD          ;RTXM228-402-C27  ;1.0  ;EM194300040125  ;20191028 ;RDH10265/3 R1A ;0  ;1310.00 ;1310.00
+ 7 ;Up   ; DU-1-G___RRU-B1_S1-1-DATA_2 ;DELTA        ;LCP-2488B4HDRME2 ;A    ;1905062A1106732 ;20190209 ;RDH10247/2 R2A ;DELTA        ;LCP-2488B4HDRME2 ;A    ;1905062A1106731 ;20190209 ;RDH10247/2 R2A ;0  ;1310.00 ;1310.00
+ 8 ;Up   ; DU-1-H___RRU-B1_S2-1-DATA_2 ;DELTA        ;LCP-2488B4HDRME2 ;A    ;1905062A1106733 ;20190209 ;RDH10247/2 R2A ;DELTA        ;LCP-2488B4HDRME2 ;A    ;1905062A1106730 ;20190209 ;RDH10247/2 R2A ;0  ;1310.00 ;1310.00
+ 9 ;Up   ; DU-1-J___RRU-B1_S3-1-DATA_2 ;DELTA        ;LCP-2488B4HDRME2 ;A    ;1905062A1106729 ;20190209 ;RDH10247/2 R2A ;DELTA        ;LCP-2488B4HDRME2 ;A    ;1905062A1106734 ;20190209 ;RDH10247/2 R2A ;0  ;1310.00 ;1310.00
+10 ;Up   ; DU-1-K___RRU-B8_S1-1-DATA_1 ;DELTA        ;LCP-2488B4HDRT-E ;A    ;130206102271    ;20130104 ;RDH10247/2 R1A ;DELTA        ;LCP-2488B4HDRT-E ;A    ;130206102270    ;20130104 ;RDH10247/2 R1A ;0  ;1310.00 ;1310.00
+-------------------------------------------------------------------------------------------------------------------------------------
+
+=====================================================================================================================================
+ID ;LINK ;RiL                          ;WL1     ;TEMP1 ;TXbs1 ;TXdBm1 ;RXdBm1 ;BER1   ;WL2     ;TEMP2 ;TXbs2 ;TXdBm2 ;RXdBm2 ;BER2   ;DlLoss ;UlLoss ;LENGTH ;TT
+=====================================================================================================================================
+ 1 ;Up   ;DU-1-A___RRU-B28_S1-1-DATA_1 ;1310.00 ;27C   ;21%   ;-4.52  ;-2.74  ;       ;1310.00 ;23C   ;26%   ;-2.75  ;-4.63  ;       ;  0.11 ; -0.01 ;   28m ; 0
+ 2 ;Up   ;DU-1-B___RRU-B28_S2-1-DATA_1 ;1310.00 ;28C   ;25%   ;-3.36  ;-2.81  ;       ;1310.00 ;22C   ;23%   ;-2.74  ;-2.35  ;       ; -1.01 ;  0.07 ;   28m ; 0
+ 3 ;Up   ;DU-1-C___RRU-B28_S3-1-DATA_1 ;1310.00 ;27C   ;26%   ;-3.31  ;-3.30  ;       ;1310.00 ;24C   ;24%   ;-3.80  ;-2.67  ;       ; -0.64 ;  -0.5 ;   27m ; 0
+ 4 ;Up   ;DU-1-D___RRU-B20_S1-1-DATA_1 ;1310.00 ;26C   ;24%   ;-3.49  ;-3.05  ;       ;1310.00 ;23C   ;24%   ;-3.18  ;-2.81  ;       ; -0.68 ; -0.13 ;   38m ; 0
+ 5 ;Up   ;DU-1-E___RRU-B20_S2-1-DATA_1 ;1310.00 ;28C   ;26%   ;-2.40  ;-3.79  ;       ;1310.00 ;21C   ;21%   ;-3.31  ;-2.67  ;       ;  0.27 ;  0.48 ;   39m ; 0
+ 6 ;Up   ;DU-1-F___RRU-B20_S3-1-DATA_1 ;1310.00 ;28C   ;27%   ;-2.23  ;-2.60  ;       ;1310.00 ;24C   ;24%   ;-3.70  ;-2.28  ;       ;  0.05 ;  -1.1 ;   36m ; 0
+ 7 ;Up   ; DU-1-G___RRU-B1_S1-1-DATA_2 ;1310.00 ;25C   ;14%   ;-5.97  ;-7.21  ;       ;1310.00 ;32C   ;20%   ;-6.06  ;-7.08  ;   0   ;  1.11 ;  1.15 ;   33m ; 0
+ 8 ;Up   ; DU-1-H___RRU-B1_S2-1-DATA_2 ;1310.00 ;28C   ;19%   ;-5.97  ;-6.27  ;       ;1310.00 ;32C   ;19%   ;-5.97  ;-6.23  ;   0   ;  0.26 ;   0.3 ;   33m ; 0
+ 9 ;Up   ; DU-1-J___RRU-B1_S3-1-DATA_2 ;1310.00 ;25C   ;14%   ;-6.00  ;-6.90  ;       ;1310.00 ;27C   ;19%   ;-5.93  ;-5.80  ;   0   ;  -0.2 ;  0.97 ;   33m ; 0
+10 ;Up   ; DU-1-K___RRU-B8_S1-1-DATA_1 ;1310.00 ;30C   ;23%   ;-6.35  ;-7.10  ;       ;1310.00 ;27C   ;25%   ;-6.46  ;-6.06  ;   0   ; -0.29 ;  0.64 ;   51m ; 0
+-------------------------------------------------------------------------------------------------------------------------------------
+
+=====================================================================================================================================
+ID ;RiL                          ;BOARD       ;SFPLNH  ;PORT ;VENDOR       ;VENDORPROD       ;REV  ;SERIAL          ;DATE     ;ERICSSONPROD   ;WL      ;TEMP  ;TXbs  ;TXdBm  ;RXdBm  ; BER
+=====================================================================================================================================
+ 1 ;DU-1-A___RRU-B28_S1-1-DATA_1 ;BB6631      ;000100   ;  1 ;WTD          ;RTXM228-402-C27  ;1.0  ;EM194300040491  ;20191030 ;RDH10265/3 R1A ;1310.00 ;27C   ;21%   ;-4.52  ;-2.74  ;    
+ 2 ;DU-1-B___RRU-B28_S2-1-DATA_1 ;BB6631      ;000100   ;  2 ;WTD          ;RTXM228-402-C27  ;1.0  ;EM194300040202  ;20191028 ;RDH10265/3 R1A ;1310.00 ;28C   ;25%   ;-3.36  ;-2.81  ;    
+ 3 ;DU-1-C___RRU-B28_S3-1-DATA_1 ;BB6631      ;000100   ;  3 ;WTD          ;RTXM228-402-C27  ;1.0  ;EM194300040496  ;20191028 ;RDH10265/3 R1A ;1310.00 ;27C   ;26%   ;-3.31  ;-3.30  ;    
+ 4 ;DU-1-D___RRU-B20_S1-1-DATA_1 ;BB6631      ;000100   ;  4 ;WTD          ;RTXM228-402-C27  ;1.0  ;EM194300040495  ;20191028 ;RDH10265/3 R1A ;1310.00 ;26C   ;24%   ;-3.49  ;-3.05  ;    
+ 5 ;DU-1-E___RRU-B20_S2-1-DATA_1 ;BB6631      ;000100   ;  5 ;WTD          ;RTXM228-402-C27  ;1.0  ;EC194300281016  ;20191025 ;RDH10265/3 R1A ;1310.00 ;28C   ;26%   ;-2.40  ;-3.79  ;    
+ 6 ;DU-1-F___RRU-B20_S3-1-DATA_1 ;BB6631      ;000100   ;  6 ;WTD          ;RTXM228-402-C27  ;1.0  ;EC194300281012  ;20191025 ;RDH10265/3 R1A ;1310.00 ;28C   ;27%   ;-2.23  ;-2.60  ;    
+ 7 ; DU-1-G___RRU-B1_S1-1-DATA_2 ;BB6631      ;000100   ;  7 ;DELTA        ;LCP-2488B4HDRME2 ;A    ;1905062A1106732 ;20190209 ;RDH10247/2 R2A ;1310.00 ;25C   ;14%   ;-5.97  ;-7.21  ;    
+ 8 ; DU-1-H___RRU-B1_S2-1-DATA_2 ;BB6631      ;000100   ;  8 ;DELTA        ;LCP-2488B4HDRME2 ;A    ;1905062A1106733 ;20190209 ;RDH10247/2 R2A ;1310.00 ;28C   ;19%   ;-5.97  ;-6.27  ;    
+ 9 ; DU-1-J___RRU-B1_S3-1-DATA_2 ;BB6631      ;000100   ;  9 ;DELTA        ;LCP-2488B4HDRME2 ;A    ;1905062A1106729 ;20190209 ;RDH10247/2 R2A ;1310.00 ;25C   ;14%   ;-6.00  ;-6.90  ;    
+10 ; DU-1-K___RRU-B8_S1-1-DATA_1 ;BB6631      ;000100   ; 10 ;DELTA        ;LCP-2488B4HDRT-E ;A    ;130206102271    ;20130104 ;RDH10247/2 R1A ;1310.00 ;30C   ;23%   ;-6.35  ;-7.10  ;    
+10 ; DU-1-K___RRU-B8_S1-1-DATA_1 ;RRUS12B8    ;BXP_10   ;  0 ;DELTA        ;LCP-2488B4HDRT-E ;A    ;130206102270    ;20130104 ;RDH10247/2 R1A ;1310.00 ;27C   ;25%   ;-6.46  ;-6.06  ;   0
+ 1 ;DU-1-A___RRU-B28_S1-1-DATA_1 ;RRU2217B28B ;BXP_11   ;  0 ;WTD          ;RTXM228-402-C27  ;1.0  ;EM194300040127  ;20191028 ;RDH10265/3 R1A ;1310.00 ;23C   ;26%   ;-2.75  ;-4.63  ;    
+ 8 ; DU-1-H___RRU-B1_S2-1-DATA_2 ;RRUS11B1    ;BXP_2    ;  1 ;DELTA        ;LCP-2488B4HDRME2 ;A    ;1905062A1106730 ;20190209 ;RDH10247/2 R2A ;1310.00 ;32C   ;19%   ;-5.97  ;-6.23  ;   0
+ 9 ; DU-1-J___RRU-B1_S3-1-DATA_2 ;RRUS11B1    ;BXP_3    ;  1 ;DELTA        ;LCP-2488B4HDRME2 ;A    ;1905062A1106734 ;20190209 ;RDH10247/2 R2A ;1310.00 ;27C   ;19%   ;-5.93  ;-5.80  ;   0
+ 7 ; DU-1-G___RRU-B1_S1-1-DATA_2 ;RRUS11B1    ;BXP_4    ;  1 ;DELTA        ;LCP-2488B4HDRME2 ;A    ;1905062A1106731 ;20190209 ;RDH10247/2 R2A ;1310.00 ;32C   ;20%   ;-6.06  ;-7.08  ;   0
+ 6 ;DU-1-F___RRU-B20_S3-1-DATA_1 ;RRU2217B20  ;BXP_5    ;  0 ;WTD          ;RTXM228-402-C27  ;1.0  ;EM194300040125  ;20191028 ;RDH10265/3 R1A ;1310.00 ;24C   ;24%   ;-3.70  ;-2.28  ;    
+ 5 ;DU-1-E___RRU-B20_S2-1-DATA_1 ;RRU2217B20  ;BXP_6    ;  0 ;WTD          ;RTXM228-402-C27  ;1.0  ;EM194300040124  ;20191028 ;RDH10265/3 R1A ;1310.00 ;21C   ;21%   ;-3.31  ;-2.67  ;    
+ 3 ;DU-1-C___RRU-B28_S3-1-DATA_1 ;RRU2217B28B ;BXP_7    ;  0 ;WTD          ;RTXM228-402-C27  ;1.0  ;EM194300040148  ;20191028 ;RDH10265/3 R1A ;1310.00 ;24C   ;24%   ;-3.80  ;-2.67  ;    
+ 4 ;DU-1-D___RRU-B20_S1-1-DATA_1 ;RRU2217B20  ;BXP_8    ;  0 ;WTD          ;RTXM228-402-C27  ;1.0  ;EM194300040141  ;20191028 ;RDH10265/3 R1A ;1310.00 ;23C   ;24%   ;-3.18  ;-2.81  ;    
+ 2 ;DU-1-B___RRU-B28_S2-1-DATA_1 ;RRU2217B28B ;BXP_9    ;  0 ;WTD          ;RTXM228-402-C27  ;1.0  ;EM194300040142  ;20191028 ;RDH10265/3 R1A ;1310.00 ;22C   ;23%   ;-2.74  ;-2.35  ;    
+-------------------------------------------------------------------------------------------------------------------------------------
+TN ;                             ;BB6631      ;000100   ;IB1 ;FINISARCORP. ;FTLX1475D3BTL-E7 ;A    ;AZE19Q8         ;20180410 ;RDH10265/3 R1A ;1310.00 ;31C   ;18%   ;-2.15  ;0.02   ;    
+-------------------------------------------------------------------------------------------------------------------------------------
+
+=====================================================================================================================================
+BOARD  ;LNH    ;PORT       ;T ;S ;OpMode   ;AutoNeg ;MacAddress        ;VlanIds         ;LOS ;BER
+=====================================================================================================================================
+BB6631 ;000100 ;TN_IDL_B_1 ;O ;1 ;10G_FULL ;false   ;F4:3C:96:A0:EA:62 ;102,304,305,311 ;    ;
+-------------------------------------------------------------------------------------------------------------------------------------
+
+radioClockState : RNT_TIME_LOCKED
+-------------------------------------------------------------------------------------
+Prio  ;ST  ;syncRefType    ;refStatus  ;opQualLevel  ;SyncReference
+-------------------------------------------------------------------------------------
+  *1  ; 1  ;GNSS_RECEIVER  ;NO_FAULT   ;GNSS         ;Synchronization=1,TimeSyncIO=GPS (FieldReplaceableUnit=DU-1,SyncPort=SYNC)
+-------------------------------------------------------------------------------------
+
+=====================================================================================================================================
+FRU          ;LNH    ;BOARD       ;RF  ;BP  ;TX (W/dBm)  ;VSWR (RL)   ;RX (dBm) ;UEs/gUEs  ;Sector/AntennaGroup/Cells (State:CellIds:PCIs)
+=====================================================================================================================================
+RRU-B1_S1-1  ;BXP_4  ;RRUS11B1    ; A  ;11  ;4.6 (36.6)  ;1.21 (20.3) ;-94.2    ;39/-      ;SE=B1_S1 AG=B1_S1 FDD=WXLC68T (1:19:263)
+RRU-B1_S1-1  ;BXP_4  ;RRUS11B1    ; B  ;11  ;6.5 (38.1)  ;1.10 (26.7) ;-92.9    ;39/-      ;SE=B1_S1 AG=B1_S1 FDD=WXLC68T (1:19:263)
+RRU-B1_S2-1  ;BXP_2  ;RRUS11B1    ; A  ;11  ;1.8 (32.5)  ;1.26 (18.8) ;-99.5    ;4/-       ;SE=B1_S2 AG=B1_S2 FDD=WXLC68U (1:20:261)
+RRU-B1_S2-1  ;BXP_2  ;RRUS11B1    ; B  ;11  ;1.8 (32.6)  ;1.37 (16.2) ;-99.2    ;4/-       ;SE=B1_S2 AG=B1_S2 FDD=WXLC68U (1:20:261)
+RRU-B1_S3-1  ;BXP_3  ;RRUS11B1    ; A  ;11  ;1.6 (32.1)  ;1.22 (20.2) ;-99.6    ;7/-       ;SE=B1_S3 AG=B1_S3 FDD=WXLC68V (1:21:262)
+RRU-B1_S3-1  ;BXP_3  ;RRUS11B1    ; B  ;11  ;1.7 (32.3)  ;1.30 (17.6) ;-99.8    ;7/-       ;SE=B1_S3 AG=B1_S3 FDD=WXLC68V (1:21:262)
+RRU-B20_S1-1 ;BXP_8  ;RRU2217B20  ; A  ;11  ;3.3 (35.2)  ;1.12 (25.2) ;-79.6    ;8/-       ;SE=B20_S1 AG=B20_S1 FDD=WXLC68A NIOT=WNLC68A (1:1:337, 1:101:337)
+RRU-B20_S1-1 ;BXP_8  ;RRU2217B20  ; B  ;11  ;3.3 (35.2)  ;1.28 (18.3) ;-74.7    ;8/-       ;SE=B20_S1 AG=B20_S1 FDD=WXLC68A NIOT=WNLC68A (1:1:337, 1:101:337)
+RRU-B20_S2-1 ;BXP_6  ;RRU2217B20  ; A  ;11  ;1.4 (31.5)  ;1.94 (9.9)  ;-85.5    ;0/-       ;SE=B20_S2 AG=B20_S2 FDD=WXLC68B NIOT=WNLC68B (1:2:338, 1:102:338)
+RRU-B20_S2-1 ;BXP_6  ;RRU2217B20  ; B  ;11  ;1.4 (31.5)  ;1.22 (20.2) ;-85.5    ;0/-       ;SE=B20_S2 AG=B20_S2 FDD=WXLC68B NIOT=WNLC68B (1:2:338, 1:102:338)
+RRU-B20_S3-1 ;BXP_5  ;RRU2217B20  ; A  ;11  ;2.0 (33.0)  ;1.22 (20.0) ;-84.5    ;0/-       ;SE=B20_S3 AG=B20_S3 FDD=WXLC68C NIOT=WNLC68C (1:3:336, 1:103:336)
+RRU-B20_S3-1 ;BXP_5  ;RRU2217B20  ; B  ;11  ;2.0 (33.0)  ;1.13 (24.4) ;-84.8    ;0/-       ;SE=B20_S3 AG=B20_S3 FDD=WXLC68C NIOT=WNLC68C (1:3:336, 1:103:336)
+RRU-B28_S1-1 ;BXP_11 ;RRU2217B28B ; A  ;11  ;1.5 (31.7)  ;1.21 (20.4) ;-84.5    ;0/5       ;SE=B28_S1 AG=B28_S1 FDD=WPLC68A NRC=WPVC68A (1:31:237, 1:211:483)
+RRU-B28_S1-1 ;BXP_11 ;RRU2217B28B ; B  ;11  ;1.5 (31.7)  ;1.17 (22.1) ;-83.8    ;0/5       ;SE=B28_S1 AG=B28_S1 FDD=WPLC68A NRC=WPVC68A (1:31:237, 1:211:483)
+RRU-B28_S2-1 ;BXP_9  ;RRU2217B28B ; A  ;11  ;1.1 (30.4)  ;1.60 (12.7) ;-77.9    ;1/1       ;SE=B28_S2 AG=B28_S2 FDD=WPLC68B NRC=WPVC68B (1:32:144, 1:212:485)
+RRU-B28_S2-1 ;BXP_9  ;RRU2217B28B ; B  ;11  ;1.1 (30.4)  ;1.14 (23.5) ;-71.3    ;1/1       ;SE=B28_S2 AG=B28_S2 FDD=WPLC68B NRC=WPVC68B (1:32:144, 1:212:485)
+RRU-B28_S3-1 ;BXP_7  ;RRU2217B28B ; A  ;11  ;1.1 (30.4)  ;1.11 (25.5) ;-84.7    ;0/-       ;SE=B28_S3 AG=B28_S3 FDD=WPLC68C NRC=WPVC68C (1:33:369, 1:213:484)
+RRU-B28_S3-1 ;BXP_7  ;RRU2217B28B ; B  ;11  ;1.1 (30.4)  ;1.20 (20.7) ;-84.9    ;0/-       ;SE=B28_S3 AG=B28_S3 FDD=WPLC68C NRC=WPVC68C (1:33:369, 1:213:484)
+RRU-B8_S1-1  ;BXP_10 ;RRUS12B8    ; A  ;11  ;19.4 (42.9) ;1.40 (15.6) ;         ;-/-       ;SE=B8_S1 AG=B8_S1 GT=WXBC68A/0 GT=WXBC68A/1 (1, 1)
+RRU-B8_S1-1  ;BXP_10 ;RRUS12B8    ; B  ;11  ;-           ;-           ;         ;-/-       ;SE=B8_S1 AG=B8_S1 GT=WXBC68A/0 GT=WXBC68A/1 (1, 1)
+-------------------------------------------------------------------------------------------------------------------------------------

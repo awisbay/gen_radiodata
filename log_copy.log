@@ -1,0 +1,21 @@
+OFFLINE_SM3W85_DCG_K> hgetc enodebfunction=1 userlabel
+
+250227-21:27:06+0700 OFFLINE_SM3W85_dcg_k 25.0b MSRBS_NODE_MODEL_24.Q2_661.28291.124_md5_ stopfile=/tmp/2652
+
+MO              ;userLabel
+ENodeBFunction=1;SXLW85   
+
+OFFLINE_SM3W85_DCG_K> hgetc ^EUtranCellFDD eUtranCellFDDId|tac|cellId|physicalLayerCellIdGroup|physicalLayerSubCellId|earfcnul|earfcndl|ulChannelBandwidth|dlChannelBandwidth|rachRootSequence
+
+250227-21:27:08+0700 OFFLINE_SM3W85_dcg_k 25.0b MSRBS_NODE_MODEL_24.Q2_661.28291.124_md5_ stopfile=/tmp/2652
+.................
+MO                   ;cellId;dlChannelBandwidth;dlInterferenceManagementActive;eUtranCellFDDId;earfcndl;earfcnul;physicalLayerCellId;physicalLayerCellIdGroup;physicalLayerSubCellId;pimAggressorCellId;pimVictimCellId;rachRootSequence;tac  ;ulChannelBandwidth;ulInterferenceManagementActive
+EUtranCellFDD=SXLW85A;1     ;10000             ;true                          ;SXLW85A        ;6300    ;24300   ;432                ;144                     ;0                     ;                  ;               ;120             ;47600;10000             ;true                          
+EUtranCellFDD=SXLW85B;2     ;10000             ;true                          ;SXLW85B        ;6300    ;24300   ;494                ;164                     ;2                     ;                  ;               ;130             ;47600;10000             ;true                          
+EUtranCellFDD=SXLW85C;3     ;10000             ;true                          ;SXLW85C        ;6300    ;24300   ;391                ;130                     ;1                     ;                  ;               ;800             ;47600;10000             ;true                          
+EUtranCellFDD=SXLW85H;8     ;20000             ;false                         ;SXLW85H        ;1801    ;19801   ;499                ;166                     ;1                     ;                  ;               ;220             ;47600;20000             ;true                          
+EUtranCellFDD=SXLW85I;9     ;20000             ;false                         ;SXLW85I        ;1801    ;19801   ;49                 ;16                      ;1                     ;                  ;               ;830             ;47600;20000             ;true                          
+EUtranCellFDD=SXLW85K;10    ;20000             ;false                         ;SXLW85K        ;1801    ;19801   ;196                ;65                      ;1                     ;                  ;               ;700             ;47600;20000             ;true                          
+EUtranCellFDD=SXLW85T;19    ;20000             ;true                          ;SXLW85T        ;100     ;18100   ;197                ;65                      ;2                     ;                  ;               ;130             ;47600;20000             ;true                          
+EUtranCellFDD=SXLW85U;20    ;20000             ;true                          ;SXLW85U        ;100     ;18100   ;196                ;65                      ;1                     ;                  ;               ;40              ;47600;20000             ;true                          
+EUtranCellFDD=SXLW85V;21    ;20000             ;true                          ;SXLW85V        ;100     ;18100   ;195                ;65                      ;0                     ;                  ;               ;0               ;47600;20000             ;true   

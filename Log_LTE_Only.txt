@@ -1,0 +1,166 @@
+OFFLINE_SM1V92_DCG_K> hgetc enodebfunction=1 enodebfunctionid$|^userlabel$
+
+250409-20:58:13+0700 OFFLINE_SM1V92_dcg_k 25.0b MSRBS_NODE_MODEL_24.Q2_661.28291.124_md5_ stopfile=/tmp/51826
+.
+MO              ;eNodeBFunctionId;userLabel
+ENodeBFunction=1;1               ;SXLV92   
+
+OFFLINE_SM1V92_DCG_K> hgetc EUtranCellFDD ^eUtranCellFDDId$|^tac$|^cellId$|^physicalLayerCellIdGroup$|^physicalLayerSubCellId$|^earfcnul$|^earfcndl$|^ulChannelBandwidth$|^dlChannelBandwidth$|^rachRootSequence$
+
+250409-20:58:13+0700 OFFLINE_SM1V92_dcg_k 25.0b MSRBS_NODE_MODEL_24.Q2_661.28291.124_md5_ stopfile=/tmp/51826
+...
+MO                   ;cellId;dlChannelBandwidth;eUtranCellFDDId;earfcndl;earfcnul;physicalLayerCellId;physicalLayerCellIdGroup;physicalLayerSubCellId;rachRootSequence;tac  ;ulChannelBandwidth
+EUtranCellFDD=SGLV92A;25    ;5000              ;SGLV92A        ;3600    ;21600   ;94                 ;31                      ;1                     ;610             ;47600;5000              
+EUtranCellFDD=SXLV92A;1     ;10000             ;SXLV92A        ;6300    ;24300   ;234                ;78                      ;0                     ;500             ;47600;10000             
+.....
+MO                                                                                                     ;dlChannelBandwidth;physicalLayerCellIdGroup;physicalLayerSubCellId;tac  ;ulChannelBandwidth
+ENodeBFunction=1,EUtraNetwork=1,ExternalENodeBFunction=2622-166585,ExternalEUtranCellFDD=2622-166585-2 ;10000             ;166                     ;1                     ;47600;10000             
+ENodeBFunction=1,EUtraNetwork=1,ExternalENodeBFunction=2622-166585,ExternalEUtranCellFDD=2622-166585-20;20000             ;98                      ;0                     ;47600;20000             
+ENodeBFunction=1,EUtraNetwork=1,ExternalENodeBFunction=2622-166585,ExternalEUtranCellFDD=2622-166585-26;5000              ;55                      ;2                     ;47600;5000              
+ENodeBFunction=1,EUtraNetwork=1,ExternalENodeBFunction=2622-166585,ExternalEUtranCellFDD=2622-166585-9 ;20000             ;83                      ;1                     ;47600;20000             
+ENodeBFunction=1,EUtraNetwork=1,ExternalENodeBFunction=2622-208338,ExternalEUtranCellFDD=2622-208338-3 ;10000             ;36                      ;1                     ;47600;10000             
+ENodeBFunction=1,EUtraNetwork=1,ExternalENodeBFunction=2622-70658,ExternalEUtranCellFDD=2622-70658-2   ;10000             ;114                     ;2                     ;47600;10000             
+ENodeBFunction=1,EUtraNetwork=1,ExternalENodeBFunction=2622-70658,ExternalEUtranCellFDD=2622-70658-3   ;10000             ;147                     ;1                     ;47600;10000             
+ENodeBFunction=1,EUtraNetwork=1,ExternalENodeBFunction=2622-75266,ExternalEUtranCellFDD=2622-75266-2   ;10000             ;76                      ;1                     ;47600;10000             
+
+OFFLINE_SM1V92_DCG_K> hgetc sectorcarrier ^sectorcarrierid$|^configuredMaxTxPower$|^noOfTxAntennas$|^noOfRxAntennas$
+
+250409-20:58:13+0700 OFFLINE_SM1V92_dcg_k 25.0b MSRBS_NODE_MODEL_24.Q2_661.28291.124_md5_ stopfile=/tmp/51826
+.
+MO                   ;configuredMaxTxPower;noOfRxAntennas;noOfTxAntennas;sectorCarrierId
+SectorCarrier=SGLV92A;20000               ;2             ;2             ;SGLV92A        
+SectorCarrier=SXLV92A;40000               ;2             ;2             ;SXLV92A        
+
+OFFLINE_SM1V92_DCG_K> hgetc nbiot ^cellid$|^arfcn$|^bandw$|^tac$
+
+250409-20:58:13+0700 OFFLINE_SM1V92_dcg_k 25.0b MSRBS_NODE_MODEL_24.Q2_661.28291.124_md5_ stopfile=/tmp/51826
+.
+MO               ;availabilityStatus;cellId;nbIotCellId;physicalLayerCellId;tac  
+NbIotCell=SNLV92A;i[0] =            ;101   ;SNLV92A    ;234                ;47920
+
+OFFLINE_SM1V92_DCG_K> hgetc gnbdufunction=1 ^gnbdufunctionid$|^userlabel$
+
+250409-20:58:13+0700 OFFLINE_SM1V92_dcg_k 25.0b MSRBS_NODE_MODEL_24.Q2_661.28291.124_md5_ stopfile=/tmp/51826
+Total: 0 MOs
+
+OFFLINE_SM1V92_DCG_K> hgetc nrcelldu ^nrcellduid$|^cellLocalId$|^nRTAC$|^nRPCI$|^rachRootSequence$
+
+250409-20:58:13+0700 OFFLINE_SM1V92_dcg_k 25.0b MSRBS_NODE_MODEL_24.Q2_661.28291.124_md5_ stopfile=/tmp/51826
+Total: 0 MOs
+
+OFFLINE_SM1V92_DCG_K> hgetc nrsectorcarrier ^arfcn$|^rachRootSequence$|^bSChannelBw$|^noOfTxAntennas$|^noOfRxAntennas$|^configuredmaxtxpower$
+
+250409-20:58:14+0700 OFFLINE_SM1V92_dcg_k 25.0b MSRBS_NODE_MODEL_24.Q2_661.28291.124_md5_ stopfile=/tmp/51826
+Total: 0 MOs
+
+OFFLINE_SM1V92_DCG_K> sdir
+
+250409-20:58:15+0700 OFFLINE_SM1V92_dcg_k 25.0b MSRBS_NODE_MODEL_24.Q2_661.28291.124_md5_ stopfile=/tmp/51826
+......Checking available boards on node...
+.
+................................................................................................................................................................................................................................................................................................................................................................
+
+Total: 2 CPRI links (2 OK, 0 OKW, 0 NOK, 0 NT)
+.......
++--------+                      +--------------+
+|        | A        O98      D1 | RRU-B20_S1-1 |
+|        |-----------1----------|  RRU2217B20  |
+|        |         OK-21m       |    BXP_3     |
+|        |                      +--------------+
+|        |                               |A  |B
+|        |                  SE=B20_S1 AG=B20_S1
+|  DU-1  |             FDD=SXLV92A NIOT=SNLV92A
+| BB6631 |
+| 000100 |               +-------------+
+|        | B    O101  D1 | RRU-B8_S1-1 |
+|        |-------2-------|  RRU2212B8  |
+|        |     OK-20m    |    BXP_2    |
+|        |               +-------------+
+|        |                       |A  |B
+|        |            SE=B8_S1 AG=B8_S1
+|        |    GT=SXBV92A/0 GT=SXBV92A/1
++--------+                  FDD=SGLV92A
+
+=====================================================================================================================================
+ID RiL                          Type Res MO1-MO2                  BOARD1-BOARD2     AlmIDs Cells (States)                                Issue (Failed checks)
+=====================================================================================================================================
+ 1 DU-1-A___RRU-B20_S1-1-DATA_1 O98  OK  DU-1(A) RRU-B20_S1-1(D1) BB6631 RRU2217B20        FDD=SXLV92A NIOT=SNLV92A (1,1)                Passed
+ 2 DU-1-B___RRU-B8_S1-1-DATA_1  O101 OK  DU-1(B) RRU-B8_S1-1(D1)  BB6631 RRU2212B8         FDD=SGLV92A GT=SXBV92A/0 GT=SXBV92A/1 (1,1,1) Passed
+-------------------------------------------------------------------------------------------------------------------------------------
+
+Node: RadioNode GL   CXP2010174/2_R9M28 (24.Q2)   G3.1   GSM LTE-FDD,LTE-IoT 
+
+=====================================================================================================================================
+FRU          ;LNH    ;BOARD      ;ST ;FAULT ;OPER ;MAINT ;STAT ;PRODUCTNUMBER   ;REV     ;SERIAL        ;DATE     ;PMTEMP ; TEMP ; UPT ;VOLT ;SW                  ;
+=====================================================================================================================================
+DU-1         ;000100 ;BB6631     ; 1 ;  OFF ;  ON ;  OFF ; OFF ;KDU1370071/11   ;R3H     ;E96A019M84    ;20241011 ;3 (OK) ;      ;0.06 ;     ;                    ;
+RRU-B20_S1-1 ;BXP_3  ;RRU2217B20 ; 1 ;  OFF ;  ON ;  OFF ; N/A ;KRC161549/1     ;R1L     ;D16Y186492    ;20181226 ;4 (OK) ; 25.6 ;0.06 ;     ;CXP9013268%9_R93KD  ; (Radio2217B20)
+RRU-B8_S1-1  ;BXP_2  ;RRU2212B8  ; 1 ;  OFF ;  ON ;  OFF ; N/A ;KRC161650/1     ;R5H     ;E23B258495    ;20200316 ;4 (OK) ; 23.0 ;0.09 ;     ;CXP9013268%15_R98MB ; (Radio2212B8)
+-------------------------------------------------------------------------------------------------------------------------------------
+
+=====================================================================================================================================
+AntennaNearUnit                                ;ST  ;TYPE   ;PRODUCTNR  ;REV                    ;UNIQUEID          ;RfPort
+=====================================================================================================================================
+AntennaUnitGroup=B20_S1,AntennaNearUnit=RET-1  ; 1  ;S-RET  ;86010155   ;HW_V_A00_FW_V02.02.00  ;KAE4L2755342A-R1  ;FieldReplaceableUnit=RRU-B20_S1-1,RfPort=R
+-------------------------------------------------------------------------------------------------------------------------------------
+
+=====================================================================================================================================
+XPBOARD  ;ST ;FAULT ;OPER ;PRODUCTNUMBER ;REV ;SERIAL/NAME ;DATE     ; TEMP ;MO
+=====================================================================================================================================
+FAN08    ; 1 ;N/A   ;N/A  ;BKV106236/1   ;R2F ;DD139G6276  ;20240807 ;      ;SupportUnit=1 (FAN  DU-1)
+-------------------------------------------------------------------------------------------------------------------------------------
+
+=====================================================================================================================================
+ID ;T ;RiL                          ;BPBP ;BOARD1     ;LNH1 ;PORT ;R ;LINK ;RATE  ; BER ;BOARD2     ;LNH2 ;PORT ;R ;LINK ;RATE  ; BER ;LENGTH ;MO1 - MO2
+=====================================================================================================================================
+ 1 ;O ;DU-1-A___RRU-B20_S1-1-DATA_1 ;1111 ;BB6631     ;000100 ; 1 ;M ;Up   ;9.8G  ;   0 ;RRU2217B20 ;BXP_3  ; 0 ;S ;Up   ;9.8G  ;   0 ;   21m ;Fru=DU-1(A) Fru=RRU-B20_S1-1(D1)
+ 2 ;O ; DU-1-B___RRU-B8_S1-1-DATA_1 ;1111 ;BB6631     ;000100 ; 2 ;M ;Up   ;10.1G ;   0 ;RRU2212B8  ;BXP_2  ; 0 ;S ;Up   ;10.1G ;   0 ;   20m ;Fru=DU-1(B) Fru=RRU-B8_S1-1(D1)
+-------------------------------------------------------------------------------------------------------------------------------------
+
+=====================================================================================================================================
+ID ;LINK ;RiL                          ;VENDOR1 ;VENDORPROD1      ;REV1 ;SERIAL1         ;DATE1    ;ERICSSONPROD1  ;VENDOR2 ;VENDORPROD2      ;REV2 ;SERIAL2         ;DATE2    ;ERICSSONPROD2  ;TT ;WL1     ;WL2    
+=====================================================================================================================================
+ 1 ;Up   ;DU-1-A___RRU-B20_S1-1-DATA_1 ;DELTA   ;LCP-10G3B4QDRME2 ;A    ;1831091A0501398 ;20180801 ;RDH10265/3 R1A ;DELTA   ;LCP-10G3B4QDRME2 ;A    ;1831091A0501393 ;20180801 ;RDH10265/3 R1A ;0  ;1310.00 ;1310.00
+ 2 ;Up   ; DU-1-B___RRU-B8_S1-1-DATA_1 ;WTD     ;RTXM228-402-C27  ;1.0  ;EC194200010352  ;20191015 ;RDH10265/3 R1A ;WTD     ;RTXM228-402-C27  ;1.0  ;EC194200010356  ;20191015 ;RDH10265/3 R1A ;0  ;1310.00 ;1310.00
+-------------------------------------------------------------------------------------------------------------------------------------
+
+=====================================================================================================================================
+ID ;LINK ;RiL                          ;WL1     ;TEMP1 ;TXbs1 ;TXdBm1 ;RXdBm1 ;BER1   ;WL2     ;TEMP2 ;TXbs2 ;TXdBm2 ;RXdBm2 ;BER2   ;DlLoss ;UlLoss ;LENGTH ;TT
+=====================================================================================================================================
+ 1 ;Up   ;DU-1-A___RRU-B20_S1-1-DATA_1 ;1310.00 ;35C   ;29%   ;-1.97  ;-2.62  ;   0   ;1310.00 ;23C   ;24%   ;-2.29  ;-2.20  ;   0   ;  0.23 ;  0.33 ;   21m ; 0
+ 2 ;Up   ; DU-1-B___RRU-B8_S1-1-DATA_1 ;1310.00 ;32C   ;25%   ;-2.67  ;-3.52  ;   0   ;1310.00 ;22C   ;24%   ;-3.54  ;-3.42  ;   0   ;  0.75 ; -0.02 ;   20m ; 0
+-------------------------------------------------------------------------------------------------------------------------------------
+
+=====================================================================================================================================
+ID ;RiL                          ;BOARD      ;SFPLNH  ;PORT ;VENDOR  ;VENDORPROD       ;REV  ;SERIAL          ;DATE     ;ERICSSONPROD   ;WL      ;TEMP  ;TXbs  ;TXdBm  ;RXdBm  ; BER
+=====================================================================================================================================
+ 1 ;DU-1-A___RRU-B20_S1-1-DATA_1 ;BB6631     ;000100   ;  1 ;DELTA   ;LCP-10G3B4QDRME2 ;A    ;1831091A0501398 ;20180801 ;RDH10265/3 R1A ;1310.00 ;35C   ;29%   ;-1.97  ;-2.62  ;   0
+ 2 ; DU-1-B___RRU-B8_S1-1-DATA_1 ;BB6631     ;000100   ;  2 ;WTD     ;RTXM228-402-C27  ;1.0  ;EC194200010352  ;20191015 ;RDH10265/3 R1A ;1310.00 ;32C   ;25%   ;-2.67  ;-3.52  ;   0
+ 2 ; DU-1-B___RRU-B8_S1-1-DATA_1 ;RRU2212B8  ;BXP_2    ;  0 ;WTD     ;RTXM228-402-C27  ;1.0  ;EC194200010356  ;20191015 ;RDH10265/3 R1A ;1310.00 ;22C   ;24%   ;-3.54  ;-3.42  ;   0
+ 1 ;DU-1-A___RRU-B20_S1-1-DATA_1 ;RRU2217B20 ;BXP_3    ;  0 ;DELTA   ;LCP-10G3B4QDRME2 ;A    ;1831091A0501393 ;20180801 ;RDH10265/3 R1A ;1310.00 ;23C   ;24%   ;-2.29  ;-2.20  ;   0
+-------------------------------------------------------------------------------------------------------------------------------------
+TN ;                             ;BB6631     ;000100   ;IB1 ;ATOP    ;APS31123IDL10NA  ;01   ;ATOPCN2111A936  ;20210320 ;NON-ERICSSON   ;1310.00 ;29C   ;36%   ;-6.04  ;-5.90  ; 0/0
+-------------------------------------------------------------------------------------------------------------------------------------
+
+=====================================================================================================================================
+BOARD  ;LNH    ;PORT       ;T ;S ;OpMode         ;AutoNeg ;MacAddress        ;VlanIds         ;LOS ;BER
+=====================================================================================================================================
+BB6631 ;000100 ;TN_E       ;E ;1 ;1G_FULL_MASTER ;true    ;F4:3C:96:A1:34:FD ;311             ;0   ;0/0
+BB6631 ;000100 ;TN_IDL_B_1 ;O ;1 ;1G_FULL        ;false   ;F4:3C:96:A1:34:FA ;102,304,310,311 ;0   ;0/0
+-------------------------------------------------------------------------------------------------------------------------------------
+
+radioClockState : RNT_TIME_LOCKED
+-------------------------------------------------------------------------------------
+Prio  ;ST  ;syncRefType  ;refStatus  ;opQualLevel  ;SyncReference
+-------------------------------------------------------------------------------------
+  *5  ; 1  ;PTP_TIME     ;NO_FAULT   ;PRTC         ;Ptp=1,BoundaryOrdinaryClock=PTS_SYNC_GM1 (G_8275_2 Router=SYNC,InterfaceIPv6=1,AddressIPv6=1:SLAVE)
+-------------------------------------------------------------------------------------
+
+=====================================================================================================================================
+FRU          ;LNH    ;BOARD      ;RF  ;BP  ;TX (W/dBm)  ;VSWR (RL)   ;RX (dBm) ;UEs/gUEs  ;Sector/AntennaGroup/Cells (State:CellIds:PCIs)
+=====================================================================================================================================
+RRU-B20_S1-1 ;BXP_3  ;RRU2217B20 ; A  ;11  ;1.4 (31.4)  ;1.43 (15.1) ;-79.8    ;15/-      ;SE=B20_S1 AG=B20_S1 FDD=SXLV92A NIOT=SNLV92A (1:1:234, 1:101:234)
+RRU-B20_S1-1 ;BXP_3  ;RRU2217B20 ; B  ;11  ;1.4 (31.4)  ;1.18 (21.7) ;-76.2    ;15/-      ;SE=B20_S1 AG=B20_S1 FDD=SXLV92A NIOT=SNLV92A (1:1:234, 1:101:234)
+RRU-B8_S1-1  ;BXP_2  ;RRU2212B8  ; A  ;11  ;17.3 (42.4) ;1.19 (21.4) ;-92.9    ;3/-       ;SE=B8_S1 AG=B8_S1 GT=SXBV92A/0 GT=SXBV92A/1 FDD=SGLV92A (1, 1, 1:25:94)
+RRU-B8_S1-1  ;BXP_2  ;RRU2212B8  ; B  ;11  ;2.0 (33.1)  ;1.11 (25.6) ;-93.6    ;3/-       ;SE=B8_S1 AG=B8_S1 GT=SXBV92A/0 GT=SXBV92A/1 FDD=SGLV92A (1, 1, 1:25:94)
+-------------------------------------------------------------------------------------------------------------------------------------

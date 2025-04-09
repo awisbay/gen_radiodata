@@ -1,0 +1,82 @@
+OFFLINE_SM3N20_DCG_K> hgetc enodebfunction=1 enodebfunctionid|userlabel
+
+250407-00:00:53+0300 OFFLINE_SM3N20_dcg_k 23.0b MSRBS_NODE_MODEL_22.Q2_566.28125.116_3317 stopfile=/tmp/1777
+.
+MO              ;eNodeBFunctionId;userLabel
+ENodeBFunction=1;1               ;SXLN20
+
+OFFLINE_SM3N20_DCG_K> hgetc ^EUtranCellFDD eUtranCellFDDId|tac|cellId|physicalLayerCellIdGroup|physicalLayerSubCellId|earfcnul|earfcndl|ulChannelBandwidth|dlChannelBandwidth|rachRootSequence
+
+250407-00:00:53+0300 OFFLINE_SM3N20_dcg_k 23.0b MSRBS_NODE_MODEL_22.Q2_566.28125.116_3317 stopfile=/tmp/1777
+....................
+MO                   ;cellId;dlChannelBandwidth;dlInterferenceManagementActive;eUtranCellFDDId;earfcndl;earfcnul;physicalLayerCellId;physicalLayerCellIdGroup;physicalLayerSubCellId;pimAggressorCellId;pimVictimCellId;rachRootSequence;tac  ;ulChannelBandwidth;ulInterferenceManagementActive
+EUtranCellFDD=SPLN20A;31    ;10000             ;false                         ;SPLN20A        ;9460    ;27460   ;226                ;75                      ;1                     ;                  ;               ;370             ;47600;10000             ;true
+EUtranCellFDD=SPLN20B;32    ;10000             ;false                         ;SPLN20B        ;9460    ;27460   ;136                ;45                      ;1                     ;                  ;               ;420             ;47600;10000             ;true
+EUtranCellFDD=SPLN20C;33    ;10000             ;false                         ;SPLN20C        ;9460    ;27460   ;118                ;39                      ;1                     ;                  ;               ;610             ;47600;10000             ;true
+EUtranCellFDD=SXLN20A;1     ;10000             ;true                          ;SXLN20A        ;6300    ;24300   ;84                 ;28                      ;0                     ;                  ;               ;440             ;47600;10000             ;true
+EUtranCellFDD=SXLN20B;2     ;10000             ;true                          ;SXLN20B        ;6300    ;24300   ;86                 ;28                      ;2                     ;                  ;               ;190             ;47600;10000             ;true
+EUtranCellFDD=SXLN20C;3     ;10000             ;true                          ;SXLN20C        ;6300    ;24300   ;85                 ;28                      ;1                     ;                  ;               ;580             ;47600;10000             ;true
+EUtranCellFDD=SXLN20H;8     ;20000             ;false                         ;SXLN20H        ;1801    ;19801   ;103                ;34                      ;1                     ;                  ;               ;360             ;47600;20000             ;true
+EUtranCellFDD=SXLN20I;9     ;20000             ;false                         ;SXLN20I        ;1801    ;19801   ;190                ;63                      ;1                     ;                  ;               ;180             ;47600;20000             ;true
+EUtranCellFDD=SXLN20K;10    ;20000             ;false                         ;SXLN20K        ;1801    ;19801   ;334                ;111                     ;1                     ;                  ;               ;480             ;47600;20000             ;true
+EUtranCellFDD=SXLN20T;19    ;20000             ;true                          ;SXLN20T        ;100     ;18100   ;379                ;126                     ;1                     ;                  ;               ;580             ;47600;20000             ;true
+EUtranCellFDD=SXLN20U;20    ;20000             ;true                          ;SXLN20U        ;100     ;18100   ;270                ;90                      ;0                     ;                  ;               ;360             ;47600;20000             ;true
+EUtranCellFDD=SXLN20V;21    ;20000             ;true                          ;SXLN20V        ;100     ;18100   ;119                ;39                      ;2                     ;                  ;               ;760             ;47600;20000             ;true
+
+OFFLINE_SM3N20_DCG_K> hgetc ^sectorcarrier sectorcarrierid|configuredMaxTxPower|noOfTxAntennas|noOfRxAntennas
+
+250407-00:00:53+0300 OFFLINE_SM3N20_dcg_k 23.0b MSRBS_NODE_MODEL_22.Q2_566.28125.116_3317 stopfile=/tmp/1777
+......
+MO                   ;configuredMaxTxPower;noOfRxAntennas;noOfTxAntennas;sectorCarrierId
+SectorCarrier=SPLN20A;40000               ;4             ;2             ;SPLN20A
+SectorCarrier=SPLN20B;40000               ;4             ;2             ;SPLN20B
+SectorCarrier=SPLN20C;40000               ;4             ;2             ;SPLN20C
+SectorCarrier=SXLN20A;40000               ;4             ;2             ;SXLN20A
+SectorCarrier=SXLN20B;40000               ;4             ;2             ;SXLN20B
+SectorCarrier=SXLN20C;40000               ;4             ;2             ;SXLN20C
+SectorCarrier=SXLN20H;80000               ;4             ;4             ;SXLN20H
+SectorCarrier=SXLN20I;80000               ;4             ;4             ;SXLN20I
+SectorCarrier=SXLN20K;80000               ;4             ;4             ;SXLN20K
+SectorCarrier=SXLN20T;80000               ;4             ;4             ;SXLN20T
+SectorCarrier=SXLN20U;80000               ;4             ;4             ;SXLN20U
+SectorCarrier=SXLN20V;80000               ;4             ;4             ;SXLN20V
+
+OFFLINE_SM3N20_DCG_K> hgetc nbiot cellid|arfcn|bandw|tac
+
+250407-00:00:53+0300 OFFLINE_SM3N20_dcg_k 23.0b MSRBS_NODE_MODEL_22.Q2_566.28125.116_3317 stopfile=/tmp/1777
+...
+MO               ;attachWithoutPDNConnectivityList;cellId;earfcndl;earfcnul;nbIotAcPresence;nbIotCellId;physicalLayerCellId;tac
+NbIotCell=SNLN20A;b[1] = false                    ;101   ;-1      ;-1      ;0 (OFF)        ;SNLN20A    ;84                 ;47920
+NbIotCell=SNLN20B;b[1] = false                    ;102   ;-1      ;-1      ;0 (OFF)        ;SNLN20B    ;86                 ;47920
+NbIotCell=SNLN20C;b[1] = false                    ;103   ;-1      ;-1      ;0 (OFF)        ;SNLN20C    ;85                 ;47920
+
+OFFLINE_SM3N20_DCG_K> hgetc gnbdufunction=1 gnbdufunctionid|userlabel
+
+250407-00:00:53+0300 OFFLINE_SM3N20_dcg_k 23.0b MSRBS_NODE_MODEL_22.Q2_566.28125.116_3317 stopfile=/tmp/1777
+.
+MO             ;gNBDUFunctionId;userLabel
+GNBDUFunction=1;1              ;SXVN20
+
+OFFLINE_SM3N20_DCG_K> hgetc nrcelldu nrcellduid|cellLocalId|nRTAC|nRPCI|rachRootSequence
+
+250407-00:00:53+0300 OFFLINE_SM3N20_dcg_k 23.0b MSRBS_NODE_MODEL_22.Q2_566.28125.116_3317 stopfile=/tmp/1777
+....
+MO              ;cellLocalId;nRCellDUId;nRPCI;nRTAC;rachRootSequence
+NRCellDU=SKVN20A;221        ;SKVN20A   ;370  ;47600;390
+NRCellDU=SKVN20B;222        ;SKVN20B   ;986  ;47600;54
+NRCellDU=SKVN20C;223        ;SKVN20C   ;954  ;47600;270
+NRCellDU=SPVN20A;211        ;SPVN20A   ;330  ;47600;648
+NRCellDU=SPVN20B;212        ;SPVN20B   ;643  ;47600;642
+NRCellDU=SPVN20C;213        ;SPVN20C   ;350  ;47600;636
+
+OFFLINE_SM3N20_DCG_K> hgetc nrsectorcarrier arfcn|rachRootSequence|bSChannelBw|noOfTxAntennas|noOfRxAntennas|configuredmaxtxpower
+
+250407-00:00:53+0300 OFFLINE_SM3N20_dcg_k 23.0b MSRBS_NODE_MODEL_22.Q2_566.28125.116_3317 stopfile=/tmp/1777
+......
+MO                     ;arfcnDL;arfcnUL;bSChannelBwDL;bSChannelBwUL;configuredMaxTxPower;noOfRxAntennas;noOfTxAntennas
+NRSectorCarrier=SKVN20A;373020 ;354020 ;20           ;20           ;80000               ;4             ;4
+NRSectorCarrier=SKVN20B;373020 ;354020 ;20           ;20           ;80000               ;4             ;4
+NRSectorCarrier=SKVN20C;373020 ;354020 ;20           ;20           ;80000               ;4             ;4
+NRSectorCarrier=SPVN20A;156600 ;145600 ;10           ;10           ;40000               ;4             ;2
+NRSectorCarrier=SPVN20B;156600 ;145600 ;10           ;10           ;40000               ;4             ;2
+NRSectorCarrier=SPVN20C;156600 ;145600 ;10           ;10           ;40000               ;4             ;2
